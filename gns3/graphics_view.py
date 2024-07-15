@@ -104,6 +104,8 @@ class GraphicsView(QtWidgets.QGraphicsView):
         self.setScene(scene)
         self.setSceneSize(width, height)
 
+        # Adding Scroll Feature
+
         # set the custom flags for this view
         self.setDragMode(QtWidgets.QGraphicsView.RubberBandDrag)
         self.setRenderHint(QtGui.QPainter.Antialiasing)
